@@ -174,11 +174,15 @@ function open_fullscreen() {
 	}
 };
 var can_resize = false;
-if($('iframe#game-area').length){
-	can_resize = true;
-	resize_game_iframe();
-	load_leaderboard({type: 'top', amount: 10});
-}
+$(window).on('load', function () {
+        const iframe = $('iframe#game-area');
+        if (iframe.length) {
+                can_resize = true;
+                resize_game_iframe();
+                iframe.on('load', resize_game_iframe);
+                load_leaderboard({type: 'top', amount: 10});
+        }
+});
 function resize_game_iframe(){
 	if(can_resize){
 		let iframe = $("iframe.game-iframe");
