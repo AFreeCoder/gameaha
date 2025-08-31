@@ -104,7 +104,7 @@
 					<h2 class="text-xl font-bold text-white mb-4 flex items-center">
 						📝 <?php _e('Description') ?>
 					</h2>
-					<div class="text-gray-300 space-y-4">
+					<div class="text-gray-300 space-y-4 richtext">
 						<?php echo apply_filters('single_game_description', $game) ?>
 					</div>
 				</div>
@@ -114,7 +114,7 @@
 					<h2 class="text-xl font-bold text-white mb-4 flex items-center">
 						📋 <?php _e('Instructions') ?>
 					</h2>
-					<div class="text-gray-300 space-y-4">
+					<div class="text-gray-300 space-y-4 richtext">
 						<?php echo apply_filters('single_game_instructions', $game) ?>
 					</div>
 				</div>
