@@ -1,0 +1,14 @@
+{
+	"name": "Google Analytics",
+	"version": "1.0.0",
+	"author": "CloudArcade",
+	"description": "Easy way to implement Google Analytics.",
+	"website": "https://cloudarcade.net",
+	"require_version": "1.8.7",
+	"tested_version": "1.8.7",
+	"initial_release": "29/05/2024",
+	"last_update": "29/05/2024",
+	"type": "plugin",
+	"target": "index",
+	"require_login": true
+}

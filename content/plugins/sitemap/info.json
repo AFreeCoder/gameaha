@@ -1,0 +1,14 @@
+{
+	"name": "Sitemap",
+	"version": "1.0.3",
+	"author": "CloudArcade",
+	"description": "Generate sitemap.xml and configure sitemap.",
+	"website": "https://cloudarcade.net",
+	"require_version": "1.9.9",
+	"tested_version": "1.9.9",
+	"initial_release": "29/05/2024",
+	"last_update": "19/01/2025",
+	"type": "plugin",
+	"target": "admin",
+	"require_login": true
+}

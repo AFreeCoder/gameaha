@@ -1,0 +1,12 @@
+{
+	"name": "Default",
+	"version": "1.2.2",
+	"author": "CloudArcade",
+	"description": "Default Theme",
+	"website": "https://cloudarcade.net",
+	"release_date": "05/04/2025",
+	"changelog": "Implement better Blog structure, apply multilanguage search, filter game description",
+	"type":"theme",
+	"html": "",
+	"target_version": "2.0.9"
+}

@@ -1,0 +1,15 @@
+{
+	"name": "Schema Markup",
+	"version": "1.0.3",
+	"author": "CloudArcade",
+	"description": "Generate JSON-LD schema markup for your HTML5 games, including game details, ratings, author, and publisher for better SEO.",
+	"website": "https://cloudarcade.net",
+	"documentation": "",
+	"require_version": "1.9.2",
+	"tested_version": "1.9.2",
+	"initial_release": "23/09/2024",
+	"last_update": "09/03/2025",
+	"type": "plugin",
+	"target": "index",
+	"require_login": true
+}

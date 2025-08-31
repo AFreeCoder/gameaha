@@ -1,0 +1,14 @@
+{
+	"name": "Astro",
+	"version": "1.1.1",
+	"author": "CloudArcade",
+	"description": "Sleek, modern gaming theme with dark aesthetics and violet accents.",
+	"website": "https://cloudarcade.net",
+	"initial_release": "16/03/2025",
+	"release_date": "18/04/2025",
+	"changelog": "",
+	"html": "",
+	"type":"theme",
+	"is_premium": true,
+	"target_version": "2.0.9"
+}

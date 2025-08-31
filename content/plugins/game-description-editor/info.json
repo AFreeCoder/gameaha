@@ -1,0 +1,15 @@
+{
+    "name": "Game Description Editor",
+    "version": "1.0.0",
+    "author": "CloudArcade",
+    "description": "Enhances game description and instructions editing with TinyMCE rich text editor",
+    "website": "https://cloudarcade.net",
+    "documentation": "https://cloudarcade.net",
+    "require_version": "2.0.6",
+    "tested_version": "2.0.6",
+    "initial_release": "30/03/2025",
+    "last_update": "30/03/2025",
+    "type": "plugin",
+    "target": "admin",
+    "require_login": true
+  }

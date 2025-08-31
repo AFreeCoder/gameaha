@@ -1,0 +1,48 @@
+[2025-08-27 18:06:51] CloudArcade CMS Update Log - Started at 2025-08-27 18:06:51
+[2025-08-27 18:06:51] Current Version: 2.1.1
+[2025-08-27 18:06:51] Target Version: 2.1.2
+[2025-08-27 18:06:51] ---------------------------------------------------
+[2025-08-27 18:06:51] Starting update process from 2.1.1 to 2.1.2
+[2025-08-27 18:06:51] Cleaning temporary files
+[2025-08-27 18:06:51] Created temporary directory
+[2025-08-27 18:06:51] Making API request
+[2025-08-27 18:06:52] API response received with HTTP code: 200
+[2025-08-27 18:06:52] Downloading update package...
+[2025-08-27 18:06:52] Downloading file from
+[2025-08-27 18:06:55] Download response received with HTTP code: 200
+[2025-08-27 18:06:55] File downloaded successfully
+[2025-08-27 18:06:55] Update package downloaded successfully
+[2025-08-27 18:06:55] Creating system backup...
+[2025-08-27 18:06:55] System backup created successfully
+[2025-08-27 18:06:55] System backup created successfully
+[2025-08-27 18:06:55] Verifying and extracting update package...
+[2025-08-27 18:06:55] Checking for database updates...
+[2025-08-27 18:06:55] Making API request
+[2025-08-27 18:06:56] API response received with HTTP code: 200
+[2025-08-27 18:06:56] Database update NOT found
+[2025-08-27 18:06:56] Update package opened successfully
+[2025-08-27 18:06:56] Extracting update package
+[2025-08-27 18:06:56] Update package extracted successfully
+[2025-08-27 18:06:56] Verifying update package integrity...
+[2025-08-27 18:06:56] Requesting hash information from server for verification
+[2025-08-27 18:06:56] Making API request
+[2025-08-27 18:06:57] API response received with HTTP code: 200
+[2025-08-27 18:06:57] Calculating hash of downloaded update package
+[2025-08-27 18:06:57] Hash verification successful
+[2025-08-27 18:06:57] Update package verified successfully
+[2025-08-27 18:06:57] Update package verified and extracted successfully
+[2025-08-27 18:06:57] Installing update...
+[2025-08-27 18:06:57] Copying updated files to installation directory
+[2025-08-27 18:06:57] Files copied successfully
+[2025-08-27 18:06:57] Update installed successfully
+[2025-08-27 18:06:57] Cleaning temporary files
+[2025-08-27 18:06:57] Removed extract directory
+[2025-08-27 18:06:57] Removed update.zip file
+[2025-08-27 18:06:57] Removed empty temp directory
+[2025-08-27 18:06:57] Cleaned up temporary files
+[2025-08-27 18:06:57] Update process completed successfully
+[2025-08-27 18:06:57] System updated from 2.1.1 to 2.1.2
+[2025-08-27 18:06:59] Making API request
+[2025-08-27 18:07:00] API response received with HTTP code: 200
+[2025-08-30 18:41:49] Making API request
+[2025-08-30 18:41:49] API response received with HTTP code: 200

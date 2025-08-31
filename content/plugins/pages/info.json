@@ -1,0 +1,13 @@
+{
+	"name": "Pages",
+	"version": "1.0.3",
+	"author": "CloudArcade",
+	"description": "Create and edit pages with WYSIWYG editor.",
+	"website": "https://cloudarcade.net",
+	"require_version": "1.5.6",
+	"tested_version": "1.5.6",
+	"last_update": "03/04/2023",
+	"type": "plugin",
+	"target": "admin",
+	"require_login": true
+}

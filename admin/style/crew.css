@@ -1,0 +1,13 @@
+#sidebar {
+    background-color: #374e79!important;
+    color: #c3cbd5!important;
+}
+.li-list {
+    color: #c3cbd5;
+}
+.dropdown-container {
+    background-color: #25365b;
+}
+.dropdown-list:hover, .dropdown-list.active {
+    background-color: #1e2b43;
+}

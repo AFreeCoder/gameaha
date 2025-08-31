@@ -1,0 +1,111 @@
+{
+    "👥": [
+        "2-player",
+        "multiplayer"
+    ],
+    "🎲": [
+        "3d",
+        "board"
+    ],
+    "⚔️": [
+        "actions",
+        "rpg",
+        "roguelike"
+    ],
+    "🧭": [
+        "adventure"
+    ],
+    "🕹️": [
+        "arcade"
+    ],
+    "💎": [
+        "bejeweled",
+        "match-3"
+    ],
+    "🫧": [
+        "bubble-shooter"
+    ],
+    "🃏": [
+        "cards"
+    ],
+    "🎮": [
+        "casual",
+        "simulation",
+        "other"
+    ],
+    "👾": [
+        "classic"
+    ],
+    "🖱️": [
+        "clicker"
+    ],
+    "👩‍🍳": [
+        "cooking"
+    ],
+    "👧": [
+        "girls"
+    ],
+    "🧩": [
+        "puzzle"
+    ],
+    "❓": [
+        "quiz"
+    ],
+    "🏎️": [
+        "racing"
+    ],
+    "⚽": [
+        "sport"
+    ],
+    "🤔": [
+        "trivia"
+    ],
+    "🧠": [
+        "strategy"
+    ],
+    "🏰": [
+        "tower-defense"
+    ],
+    "🎯": [
+        "shooter"
+    ],
+    "🔫": [
+        "fps"
+    ],
+    "👻": [
+        "horror"
+    ],
+    "🥊": [
+        "fighting"
+    ],
+    "🚜": [
+        "farming"
+    ],
+    "🦸": [
+        "platformer"
+    ],
+    "🚗": [
+        "car"
+    ],
+    "💰": [
+        "tycoon"
+    ],
+    "🧸": [
+        "kids"
+    ],
+    "📚": [
+        "education"
+    ],
+    "🥽": [
+        "vr"
+    ],
+    "🎵": [
+        "music"
+    ],
+    "👑": [
+        "battle-royale"
+    ],
+    "🏕️": [
+        "survival"
+    ]
+}

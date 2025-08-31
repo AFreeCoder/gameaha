@@ -1,0 +1,13 @@
+{
+	"name": "Cookie Consent",
+	"version": "1.0.3",
+	"author": "CloudArcade",
+	"description": "Cookie Consent for GDPR Compliance",
+	"website": "https://cloudarcade.net",
+	"require_version": "1.7.1",
+	"tested_version": "1.7.1",
+	"last_update": "15/03/2025",
+	"type": "plugin",
+	"target": "index",
+	"require_login": false
+}
