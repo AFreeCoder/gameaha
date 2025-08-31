@@ -1,4 +1,50 @@
 "use strict";
+// Ensure game iframe scales to the game-defined aspect ratio
+function resizeGameIframe() {
+    const iframe = document.getElementById('game-area');
+    if (!iframe) return;
+    const container = document.querySelector('.game-iframe-container');
+    if (!container) return;
+
+    // Read intended game dimensions from attributes
+    const w = Number(iframe.getAttribute('width')) || 0;
+    const h = Number(iframe.getAttribute('height')) || 0;
+    if (!w || !h) return;
+
+    const ratio = (h / w) * 100; // padding-top percentage fallback
+
+    // Prefer modern aspect-ratio when available; otherwise use padding-top hack
+    if (typeof container.style.aspectRatio !== 'undefined') {
+        container.style.aspectRatio = `${w}/${h}`;
+        container.style.minHeight = 'auto'; // override fixed min-height to avoid cropping
+        container.style.paddingTop = '';
+    } else {
+        container.style.aspectRatio = '';
+        container.style.minHeight = '0';
+        container.style.paddingTop = ratio + '%';
+    }
+
+    // Some games render at fixed CSS pixels (e.g., 1280x720) and do not
+    // automatically scale to the iframe viewport. In that case, the content
+    // will appear cropped. To accommodate this, scale the iframe itself so the
+    // inner fixed-size content fits within the container.
+    // Technique: enlarge the iframe's internal viewport and scale it down so
+    // the visible size remains equal to the container.
+    const cw = container.clientWidth;
+    const scale = cw / w; // container and game have the same aspect ratio
+    iframe.style.transformOrigin = 'top left';
+    iframe.style.transform = `scale(${scale})`;
+    // Ensure absolute positioning does not override explicit width/height
+    iframe.style.right = 'auto';
+    iframe.style.bottom = 'auto';
+    // Expand iframe viewport so that after scaling it visually matches container
+    iframe.style.width = `${w}px`;
+    iframe.style.height = `${h}px`;
+}
+
+// Run after layout and on resize
+window.addEventListener('load', resizeGameIframe);
+window.addEventListener('resize', resizeGameIframe);
 if (document.getElementById('tpl-comment-section')) {
     const gameId = document.getElementById('tpl-comment-section').getAttribute('data-id');
     const commentSystem = new CommentSystem(gameId);

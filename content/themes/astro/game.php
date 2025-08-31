@@ -10,7 +10,14 @@
 				<div class="bg-[#1E2A45] rounded-2xl overflow-hidden shadow-xl mb-8">
 					<div class="game-content relative" data-id="<?php echo $game->id ?>">
 						<!-- Game iframe -->
-						<div class="game-iframe-container" id="game-player">
+						<?php 
+						    // Calculate aspect ratio padding to ensure correct sizing without JS timing issues
+						    $w = intval($game->width);
+						    $h = intval($game->height);
+						    if ($w <= 0 || $h <= 0) { $w = 16; $h = 9; } // fallback to 16:9
+						    $padding = ($h / ($w ?: 1)) * 100; 
+						?>
+						<div class="game-iframe-container" id="game-player" style="min-height:0;padding-top: <?php echo number_format($padding, 6, '.', ''); ?>%;">
 							<iframe class="game-iframe w-full aspect-video" id="game-area"
 								src="<?php echo get_game_url($game); ?>"
 								width="<?php echo esc_int($game->width); ?>"
