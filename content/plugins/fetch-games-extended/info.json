@@ -1,0 +1,13 @@
+{
+	"name": "Fetch Games Extended",
+	"version": "1.0.8",
+	"author": "CloudArcade",
+	"description": "More game distributor list to fetch.",
+	"website": "https://cloudarcade.net",
+	"require_version": "1.8.9",
+	"tested_version": "1.8.9",
+	"last_update": "27/12/2024",
+	"type": "plugin",
+	"target": "admin",
+	"require_login": true
+}

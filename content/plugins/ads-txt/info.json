@@ -1,0 +1,13 @@
+{
+	"name": "Ads.txt",
+	"version": "1.0.0",
+	"author": "CloudArcade",
+	"description": "Create and edit ads.txt file.",
+	"website": "https://cloudarcade.net",
+	"require_version": "1.5.3",
+	"tested_version": "1.5.3",
+	"last_update": "29/05/2024",
+	"type": "plugin",
+	"target": "admin",
+	"require_login": true
+}

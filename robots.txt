@@ -3,4 +3,4 @@ User-agent: *
 		Disallow: /classes/
 		Disallow: /admin/
 		Disallow: /vendor/
-		Sitemap: https://gameaha.net/sitemap.xml
+		Sitemap: http://gameaha.net/sitemap.xml

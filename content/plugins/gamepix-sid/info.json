@@ -1,0 +1,13 @@
+{
+	"name": "GamePix SID",
+	"version": "1.0.4",
+	"author": "CloudArcade",
+	"description": "Set and update your GamePix SID.",
+	"website": "https://cloudarcade.net",
+	"require_version": "1.8.9",
+	"tested_version": "1.8.9",
+	"last_update": "04/07/2024",
+	"type": "plugin",
+	"target": "admin",
+	"require_login": true
+}
